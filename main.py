@@ -20,7 +20,7 @@ class aNameForMyClass():
         hook.send(embed=embed)
     
     def getInfo(self):
-        #os.remove('info.png')
+        
         phrase = ""
         myScreenshot = pyautogui.screenshot()
         myScreenshot.save('text.png')
